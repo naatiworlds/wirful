@@ -1,10 +1,10 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom"
-import Inicio from "./Inicio"
-import SobreNosotros from "./SobreNosotros"
+import Inicio from "./pages/Inicio"
+import SobreNosotros from "./pages/SobreNosotros"
 import ColeecionNatiworlds from "./pages/ColeecionNatiworlds";
 import './App.css';
 import React from 'react';
-import ColeecionGamer from "./pages/ColeccionGamer";
+import ColeccionGamer from "./pages/ColeccionGamer";
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Route index element={ <Inicio /> } />
         <Route path="sobre-nosotros" element={<SobreNosotros />} />
         <Route path="coleccion-natiworlds" element={<ColeecionNatiworlds />} />
-        <Route path="coleccion-gamer" element={<ColeecionGamer />} />
+        <Route path="coleccion-gamer" element={<ColeccionGamer />} />
         {/* <Route path="contacto" element={<Contacto />} /> */}
       </Routes>
     </BrowserRouter>

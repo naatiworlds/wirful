@@ -1,10 +1,10 @@
 import "./ColeccionNatiworlds.css"
 import Cabecera from "../Cabecera";
 import Ejemplo from "../Slider";
-import gamer1 from './images/gamer/coleccion.jpeg';
-import gamer2 from './images/gamer/coleccion.jpeg';
-import gamer3 from './images/gamer/coleccion.jpeg';
-import "./Card.css"
+import gamer1 from '../images/gamer/coleccion.jpeg';
+import gamer2 from '../images/gamer/coleccion.jpeg';
+import gamer3 from '../images/gamer/coleccion.jpeg';
+import "../Card.css"
 
 const slidesData = [
     {
