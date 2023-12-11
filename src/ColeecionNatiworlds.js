@@ -36,7 +36,7 @@ function ColeecionNatiworlds() {
                 enlaceExtra={"/"}
                 tituloExtra={"Inicio"}
             />
-            <h2 class="tituloSeccion">Coleeción natiworlds</h2>
+            <h2 class="tituloSeccion">Colección natiworlds</h2>
             <div class="slider-container">
 
                 <Ejemplo slides={slidesData} />
