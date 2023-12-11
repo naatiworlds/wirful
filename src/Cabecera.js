@@ -12,6 +12,7 @@ function Cabecera(props) {
                 <Nav>
                     <Navbar.Toggle />
                     <Navbar.Collapse>
+                        <Nav.Link href={props.enlaceExtra}><></>{props.tituloExtra}</Nav.Link>
                         <Nav.Link href='/Contacto'><></>Contacto</Nav.Link>
                         <NavDropdown title="Sobre nosotros" href='#' >
 
