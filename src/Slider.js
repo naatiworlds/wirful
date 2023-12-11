@@ -10,11 +10,6 @@ function Slider({ slides }) {
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
-  const [index1, setIndex1] = useState(0);
-
-  const handleSelect1 = (selectedIndex1) => {
-    setIndex(selectedIndex1);
-  };
 
   return (
       <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -24,7 +19,7 @@ function Slider({ slides }) {
             <Carousel.Caption>
               <h3>{slide.title}</h3>
               <p>{slide.subtitle}</p>
-            <Button class="button"><a href="#">{slide.precio}</a></Button>
+            <Button class="button"><a href={slide.enlace}>{slide.precio}</a></Button>
             </Carousel.Caption>
           </Carousel.Item>
         ))}

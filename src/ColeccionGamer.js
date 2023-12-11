@@ -9,40 +9,36 @@ import "./Card.css"
 const slidesData = [
     {
         image: gamer1,
-        title: 'Branch de gamer',
+        title: 'Disponible pronto...',
         subtitle: 'Una colección para todos esos gamers con pasión para los videojuegos',
-        precio: "20.00€"
+        precio: "??.??€",
     },
     {
         image: gamer2,
-        title: 'Branch de Natiworlds',
+        title: 'Disponible pronto...',
         subtitle: 'Una colección para todos esos gamers con pasión para los videojuegos',
-        precio: "20.00€"
+        precio: "??.??€",
     },
     {
         image: gamer3,
-        title: 'Branch de Natiworlds',
+        title: 'Disponible pronto...',
         subtitle: 'Una colección para todos esos gamers con pasión para los videojuegos',
-        precio: "20.00€"
+        precio: "??.??€",
     }
 ];
 
 function ColeecionGamer() {
     return (
         <>
-            <Cabecera 
+            <Cabecera
                 enlaceExtra={"/"}
                 tituloExtra={"Inicio"}
             />
-            <h2 class="tituloSeccion">Coleeción natiworlds</h2>
+            <h2 class="tituloSeccion">Coleeción gamer</h2>
             <div class="slider-container">
 
                 <Ejemplo slides={slidesData} />
-                <Ejemplo slides={slidesData} />
-                <Ejemplo slides={slidesData} />
-                <Ejemplo slides={slidesData} />
-                <Ejemplo slides={slidesData} />
-                <Ejemplo slides={slidesData} />
+
             </div>
             <br></br>
 

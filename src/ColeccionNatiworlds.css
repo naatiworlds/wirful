@@ -1,4 +1,6 @@
-
+.BuyButton-Button is-buttonLayout{
+    width: 50%;
+}
 button {
     background-color: antiquewhite;
     margin: 0 auto;

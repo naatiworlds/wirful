@@ -9,21 +9,23 @@ import "./Card.css"
 const slidesData = [
     {
         image: wirful1,
-        title: 'Branch de Natiworlds',
+        title: 'Disponible pronto...',
         subtitle: 'Una colección inspirada en mi canal de YouTube Natiworlds',
-        precio: "20.00€"
+        precio: "??.??€",
     },
     {
         image: wirful2,
-        title: 'Branch de Natiworlds',
+        title: 'Disponible pronto...',
         subtitle: 'Una colección inspirada en mi canal de YouTube Natiworlds',
-        precio: "20.00€"
+        precio: "??.??€",
+
     },
     {
         image: wirful3,
-        title: 'Branch de Natiworlds',
+        title: 'Disponible pronto...',
         subtitle: 'Una colección inspirada en mi canal de YouTube Natiworlds',
-        precio: "20.00€"
+        precio: "??.??€",
+
     }
 ];
 

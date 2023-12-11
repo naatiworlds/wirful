@@ -6,7 +6,6 @@ import Cabecera from "./Cabecera";
 import wirful1 from "./images/Natiworlds/coleccion.jpeg"
 import wirful2 from "./images/gamer/coleccion.jpeg"
 import proximamente from "./images/proximamente.png"
-import JustifiedExample from "./Slider";
 function Inicio() {
     return (
         <>
