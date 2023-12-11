@@ -12,9 +12,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/sobre-nosotros" element={<SobreNosotros />} />
-        <Route path="/coleccion-natiworlds" element={<ColeecionNatiworlds />} />
-        <Route path="/coleccion-gamer" element={<ColeecionGamer />} />
+        <Route path="sobre-nosotros" element={<SobreNosotros />} />
+        <Route path="coleccion-natiworlds" element={<ColeecionNatiworlds />} />
+        <Route path="coleccion-gamer" element={<ColeecionGamer />} />
       </Routes>
   );
 }
