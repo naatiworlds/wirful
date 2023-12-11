@@ -18,7 +18,7 @@ function Inicio() {
             <h2 class="tituloSeccion">Colecciones</h2>
             <div class="container">
                 <CardsConImagen
-                    redireccion="coleccion-natiworlds"
+                    redireccion="/coleccion-natiworlds"
                     imagen={wirful1}
                     alt={"Imagen de la colección"}
                     titulo={"Colleción Natiworlds"}
