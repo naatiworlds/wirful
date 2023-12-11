@@ -1,12 +1,12 @@
 import React from "react"
-import CardsConImagen from "../CardsConImagen";
-import CardsSinImagen from "../CardsSinImagen";
+import CardsConImagen from "./CardsConImagen";
+import CardsSinImagen from "./CardsSinImagen";
 import "./Inicio.css"
-import Cabecera from "../Cabecera";
-import wirful1 from "../images/Natiworlds/coleccion.jpeg"
-import wirful2 from "../images/gamer/coleccion.jpeg"
-import proximamente from "../images/proximamente.png"
-import JustifiedExample from "../Slider";
+import Cabecera from "./Cabecera";
+import wirful1 from "./images/Natiworlds/coleccion.jpeg"
+import wirful2 from "./images/gamer/coleccion.jpeg"
+import proximamente from "./images/proximamente.png"
+import JustifiedExample from "./Slider";
 function Inicio() {
     return (
         <>

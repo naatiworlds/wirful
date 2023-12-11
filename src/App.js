@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter } from "react-router-dom"
-import Inicio from "./pages/Inicio"
-import SobreNosotros from "./pages/SobreNosotros"
-import ColeecionNatiworlds from "./pages/ColeecionNatiworlds";
+import Inicio from "./Inicio"
+import SobreNosotros from "./SobreNosotros"
+import ColeecionNatiworlds from "./ColeecionNatiworlds";
 import './App.css';
-import ColeecionGamer from "./pages/ColeccionGamer";
+import ColeecionGamer from "./ColeccionGamer";
 
 
 function App() {
