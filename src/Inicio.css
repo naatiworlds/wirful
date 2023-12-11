@@ -1,0 +1,77 @@
+.tituloSeccion {
+    background-color: blanchedalmond;
+    box-shadow: 0 0 4px black;
+    text-align: center;
+    color: black;
+    padding: 12px;
+    margin: 20px;
+}
+
+#advertencia + h2 {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    z-index: 1000;
+}
+
+.footer{
+    width: 97%;
+    height: 50px;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(255, 235, 205);
+    box-shadow: 0 0 10px black;
+    border: 1px solid black;
+    position: absolute;
+
+
+}
+.footer div{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+} 
+
+.nav-inferior{
+    font-size: 1px;
+    display: flex;
+    padding: .5em 0;
+    z-index: 2;
+}
+
+.nav-inferior li {
+    padding:0 10em;
+}
+.nav-inferior li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    transition: all .5s;
+}
+.nav-inferior li a:hover{
+    color: blueviolet;
+    padding-right: 1em;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+    .tituloSeccion {
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tituloSeccion {
+        margin: 5px; /* Adjust margin for even smaller screens */
+    }
+}

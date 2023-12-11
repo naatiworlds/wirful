@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import { Routes, Route } from "react-router-dom"
+import Inicio from "./Inicio"
+import SobreNosotros from "./SobreNosotros"
+import ColeecionNatiworlds from "./ColeecionNatiworlds";
 import './App.css';
+import React from 'react';
+import ColeecionGamer from "./ColeccionGamer";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={ <Inicio /> } />
+      <Route path="sobre-nosotros" element={<SobreNosotros />} />
+      <Route path="coleccion-natiworlds" element={<ColeecionNatiworlds />} />
+      <Route path="coleccion-gamer" element={<ColeecionGamer />} />
+      {/* <Route path="contacto" element={<Contacto />} /> */}
+    </Routes>
   );
 }
 

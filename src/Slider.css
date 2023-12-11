@@ -1,0 +1,123 @@
+
+/* En tu archivo de estilos (por ejemplo, styles.css) */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.slider-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.carousel {
+  background-color: burlywood;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+}
+
+.carousel-inner {
+  width: 50%;
+}
+
+.carousel-item {
+  width: 80%;
+  height: 520px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  margin-left: 15%;
+}
+.carousel-caption {
+  width: 100%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+h3, p {
+  color: black;
+}
+
+.btn {
+  --bs-mine: antiquewhite;
+  background-color: var(--bs-mine);
+  border: none;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  animation: 0.5s infinite normal boton;
+  --bs-mine: antiquewhite;
+  background-color: var(--bs-mine);
+}
+
+.btn a:hover {
+  padding: 0;
+}
+
+@keyframes boton {
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+/* Reglas de medios para pantallas más pequeñas (ajustar según sea necesario) */
+@media (max-width: 768px) {
+  .slider-container{
+    flex-direction: column;
+  }
+  .carousel {
+    width: 80%;
+  }
+  
+  .btn a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 408px) {
+  .slider-container{
+    flex-direction: column;
+  }
+  .carousel {
+    width: 80%;
+  }
+  .carousel-inner{
+    width: 100%;
+  }
+  .btn a {
+    font-size: 18px;
+  }
+}
