@@ -23,7 +23,7 @@ function Inicio() {
                     titulo={"Colleción Natiworlds"}
                     alt2={"Segunda imagen de la colección"}
                     figure={"Colección be brave con una frase motivadora"}
-                    precio={"20.00€"}
+                    precio={"??.??€"}
                 />
                 <CardsConImagen
                     redireccion="coleccion-gamer"
@@ -32,7 +32,7 @@ function Inicio() {
                     titulo={"Colección gamer"}
                     alt2={"Segunda imagen de la colección"}
                     figure={"Colección be brave con una frase motivadora"}
-                    precio={"20.00€"}
+                    precio={"??.??€"}
                 />
 
                 <CardsSinImagen
@@ -40,7 +40,7 @@ function Inicio() {
                     alt={"Imagen de la colección"}
                     titulo={"Próximamente"}
                     figure={"Colección be brave con una frase motivadora"}
-                    precio={"20.00€"}
+                    precio={"??.??€"}
                 />
 
             </div>
