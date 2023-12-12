@@ -17,10 +17,10 @@ function Inicio() {
             <h2 class="tituloSeccion">Colecciones</h2>
             <div class="container">
                 <CardsConImagen
-                    redireccion="coleccion-natiworlds"
+                    redireccion="coleccion-youtubers"
                     imagen={wirful1}
                     alt={"Imagen de la colección"}
-                    titulo={"Colleción Natiworlds"}
+                    titulo={"Colleción Youtubers"}
                     alt2={"Segunda imagen de la colección"}
                     figure={"Colección be brave con una frase motivadora"}
                     precio={"??.??€"}

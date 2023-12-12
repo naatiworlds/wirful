@@ -1,4 +1,4 @@
-import "./ColeccionNatiworlds.css"
+import "./ColeccionYoutubers.css"
 import Cabecera from "./Cabecera";
 import Ejemplo from "./Slider";
 import gamer1 from './images/gamer/coleccion.jpeg';

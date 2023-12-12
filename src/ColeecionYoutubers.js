@@ -1,4 +1,4 @@
-import "./ColeccionNatiworlds.css"
+import "./ColeccionYoutubers.css"
 import Cabecera from "./Cabecera";
 import Ejemplo from "./Slider";
 import wirful1 from './images/Natiworlds/wirful1.jpg';
@@ -29,14 +29,14 @@ const slidesData = [
     }
 ];
 
-function ColeecionNatiworlds() {
+function ColeecionYoutubers() {
     return (
         <>
             <Cabecera 
                 enlaceExtra={"/"}
                 tituloExtra={"Inicio"}
             />
-            <h2 class="tituloSeccion">Colección natiworlds</h2>
+            <h2 class="tituloSeccion">Colección Youtubers</h2>
             <div class="slider-container">
 
                 <Ejemplo slides={slidesData} />
@@ -46,4 +46,4 @@ function ColeecionNatiworlds() {
         </>
     )
 }
-export default ColeecionNatiworlds;
+export default ColeecionYoutubers;
