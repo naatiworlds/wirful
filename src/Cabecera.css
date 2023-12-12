@@ -50,7 +50,7 @@ h1 {
 .nav-superior {
     position: absolute;
     width: 97%;
-    top: 30%;
+    top: 600%;
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
@@ -67,7 +67,7 @@ h1 {
     padding: 0 2em;
 }
 
-.nav-superior li a {
+.nav-superior .nav-link{
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -75,11 +75,16 @@ h1 {
     transition: all .5s;
 }
 
-.nav-superior li a:hover {
+.nav-superior .nav-link:hover {
     color: blueviolet;
-    padding-right: 1em;
+    padding:  0 20px;
 }
-
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    background-color: rgb(255, 235, 205);
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+    font-weight: bold;
+}
 /* Media queries for responsiveness */
 
 @media screen and (max-width: 768px) {
@@ -101,12 +106,9 @@ h1 {
         padding: 0.5em 0.2em; /* Adjust padding for the navigation bar */
     }
 
-    .nav-superior li {
-        padding: 0 .5em; /* Adjust padding for list items in the navigation bar */
-    }
-
-    .nav-superior li a {
+    .nav-superior .nav-link{
         font-size: 5px; /* Adjust font size for navigation links */
+        padding: 0 .5em;
     }
 }
 

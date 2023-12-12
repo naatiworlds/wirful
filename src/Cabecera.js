@@ -7,11 +7,10 @@ function Cabecera(props) {
         <div id="header">
             <img id="logo" src={logo} alt="Logo de la empresa"></img>
             <h1>Wirful.com</h1>
-            <nav class="nav-superior">
             <Navbar bg='beige' variant='beige' width='100%' expand='lg' stkicy='top'>
                 <Nav>
                     <Navbar.Toggle />
-                    <Navbar.Collapse>
+                    <Navbar.Collapse class="nav-superior">
                         <Nav.Link href={props.enlaceExtra}><></>{props.tituloExtra}</Nav.Link>
                         <Nav.Link href='/Contacto'><></>Contacto</Nav.Link>
                         <NavDropdown title="Sobre nosotros" href='#' >
@@ -28,7 +27,6 @@ function Cabecera(props) {
 
                 </Nav>
             </Navbar>
-            </nav>
 
         </div>
     )
