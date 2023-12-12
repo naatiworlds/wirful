@@ -5,7 +5,8 @@ import Card from 'react-bootstrap/Card';
 
 function CardsConImagen(promp) {
     return (
-        <Card class="card">
+        <article class="card-container">
+            <Card class="card">
             <Card.Title><h2 class="tituloCard"><a href={promp.redireccion}>{promp.titulo}</a></h2></Card.Title>
             <Card.Body>
                 <div class="imagenes">
@@ -19,6 +20,8 @@ function CardsConImagen(promp) {
                 <Button variant="primary"><a href="#">{promp.precio}</a></Button>
             </Card.Body>
         </Card>
+        </article>
+        
     )
 }
 export default CardsConImagen;

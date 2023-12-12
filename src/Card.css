@@ -6,8 +6,7 @@
     text-align: center;
     justify-content: center;
 }
-
-.container .card {
+.container .card-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,6 +18,18 @@
     border-radius: 8px;
     padding: 2px;
     width: 30%;
+    min-height: 300px;
+    margin: 10px;
+}
+
+.container .card {
+    align-items: center;
+    background-color: burlywood;
+    color: black;
+    border: 1px solid burlywood;
+    border-radius: 8px;
+    padding: 2px;
+    width: 100%;
     min-height: 300px;
     margin: 10px;
 }

@@ -15,12 +15,12 @@ function Inicio() {
             <Cabecera />
 
             <h2 class="tituloSeccion">Colecciones</h2>
-            <div class="container">
+            <section class="container">
                 <CardsConImagen
                     redireccion="coleccion-youtubers"
                     imagen={wirful1}
                     alt={"Imagen de la colección"}
-                    titulo={"Colleción Youtubers"}
+                    titulo={"Colleción Natiworlds"}
                     alt2={"Segunda imagen de la colección"}
                     figure={"Colección be brave con una frase motivadora"}
                     precio={"??.??€"}
@@ -43,7 +43,7 @@ function Inicio() {
                     precio={"??.??€"}
                 />
 
-            </div>
+            </section>
             
         </>
 
