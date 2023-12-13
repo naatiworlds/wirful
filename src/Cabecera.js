@@ -3,6 +3,8 @@ import logo from "./images/logo.png"
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css'
 function Cabecera(props) {
+    
+    
     return (
         <header id="header">
             <img id="logo" src={logo} alt="Logo de la empresa"></img>

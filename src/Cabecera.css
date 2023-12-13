@@ -81,12 +81,46 @@ h1 {
     width: 60px;
 }
 
+
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     background-color: rgb(255, 235, 205);
+    border: none;
+    opacity: 0; /* Inicialmente oculto */
+    transform: translateY(-20px); /* Mueve hacia arriba para la animación */
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
+.navbar-expand-lg .navbar-nav .show > .dropdown-menu {
+    opacity: 1; /* Mostrar cuando el menú está abierto */
+    transform: translateY(0); /* Vuelve a la posición normal */
+}
+
+/* Efecto fade in para los elementos del menú desplegable */
 .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
     font-weight: bold;
+    opacity: 0; /* Inicialmente oculto */
+    transform: translateY(-10px); /* Mueve hacia arriba para la animación */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.navbar-collapse .collapse .show{
+    animation: fadeInDown 0.5s ease;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu.show .dropdown-item {
+    opacity: 1; /* Mostrar cuando el menú está abierto */
+    transform: translateY(0); /* Vuelve a la posición normal */
+    animation: fadeInDown 0.5s ease; /* Agrega animación */
+}
+
+/* Animación fade in de arriba a abajo */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Media queries for responsiveness */
