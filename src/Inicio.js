@@ -20,7 +20,7 @@ function Inicio() {
                     redireccion="coleccion-youtubers"
                     imagen={wirful1}
                     alt={"Imagen de la colección"}
-                    titulo={"Colleción Natiworlds"}
+                    titulo={"Colleción Youtubers"}
                     alt2={"Segunda imagen de la colección"}
                     figure={"Colección be brave con una frase motivadora"}
                     precio={"??.??€"}
