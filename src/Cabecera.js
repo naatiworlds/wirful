@@ -4,7 +4,7 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css'
 function Cabecera(props) {
     return (
-        <div id="header">
+        <header id="header">
             <img id="logo" src={logo} alt="Logo de la empresa"></img>
             <h1>Wirful.com</h1>
             {/* <Navbar bg='beige' variant='beige' width='100%' expand='lg' stkicy='top'>
@@ -30,25 +30,24 @@ function Cabecera(props) {
                 <Nav>
                     <Navbar.Toggle />
                     <Navbar.Collapse>
-                        <Nav.Link href='/'><></>Inicio</Nav.Link>
+                        <Nav.Link href={props.enlaceExtra}>{props.tituloExtra}</Nav.Link>
                         <Nav.Link href='/Contacto'><></>Contacto</Nav.Link>
-                        <NavDropdown title="Nuestra carta" href='/nuestraCarta' >
+                        <NavDropdown title="Sobre nosotros" href='#' >
 
-                            <NavDropdown.Item href='/NuestraCarta'>Nuestra carta</NavDropdown.Item>
+                            <NavDropdown.Item href='/sobre-nosotros'>Conócenos</NavDropdown.Item>
                             <NavDropdown.Divider></NavDropdown.Divider>
 
-                            <NavDropdown.Item href='/MenuPorPrecio'><></>Menú por precios</NavDropdown.Item>
-                            <NavDropdown.Item href='/MenuInfantil'><></>Menú infantil</NavDropdown.Item>
-                            <NavDropdown.Item href='/MenuALaCarta'><></>Menú a la carta</NavDropdown.Item>
+                            <NavDropdown.Item href='#'>Preguntas frecuentes</NavDropdown.Item>
+                            <NavDropdown.Item href='<3'>Nuestra filosofía</NavDropdown.Item>
+                            <NavDropdown.Item href='/MenuALaCarta'>Menú a la carta</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href='/QuienesSomos'><></>Quiénes somos</Nav.Link>
-                        <Nav.Link href='/Fototeca'><></>Fototeca</Nav.Link>
+                        <Nav.Link href='#'>Registro</Nav.Link>
                     </Navbar.Collapse>
 
                 </Nav>
             </Navbar>
 
-        </div>
+        </header>
     )
 }
 export default Cabecera;
