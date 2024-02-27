@@ -58,6 +58,8 @@
     max-width: auto;
     height: auto;
     margin: 10px auto;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
 
 .container div img:hover {

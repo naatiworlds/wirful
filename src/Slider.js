@@ -12,18 +12,20 @@ function Slider({ slides }) {
   };
 
   return (
-      <Carousel activeIndex={index} onSelect={handleSelect}>
-        {slides.map((slide, idx) => (
-          <Carousel.Item key={idx}>
+    <Carousel activeIndex={index} onSelect={handleSelect}>
+      {slides.map((slide, idx) => (
+        <Carousel.Item key={idx}>
+          <div>
             <img src={slide.image} alt={`Slide ${idx + 1}`} />
-            <Carousel.Caption>
-              <h3>{slide.title}</h3>
-              <p>{slide.subtitle}</p>
+          </div>
+          <Carousel.Caption>
+            <h3>{slide.title}</h3>
+            <p>{slide.subtitle}</p>
             <Button class="button"><a href={slide.enlace}>{slide.precio}</a></Button>
-            </Carousel.Caption>
-          </Carousel.Item>
-        ))}
-      </Carousel>
+          </Carousel.Caption>
+        </Carousel.Item>
+      ))}
+    </Carousel>
 
   );
 }

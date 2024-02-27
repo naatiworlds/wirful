@@ -1,9 +1,9 @@
 import "./ColeccionYoutubers.css"
 import Cabecera from "./Cabecera";
 import Ejemplo from "./Slider";
-import gamer1 from './images/gamer/coleccion.jpeg';
-import gamer2 from './images/gamer/coleccion.jpeg';
-import gamer3 from './images/gamer/coleccion.jpeg';
+import gamer1 from './images/gamer/mockupBack.png';
+import gamer2 from './images/Natiworlds/wirful1.png';
+import gamer3 from './images/Natiworlds/wirful3.png';
 import "./Card.css"
 
 const slidesData = [

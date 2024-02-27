@@ -11,8 +11,6 @@ function CardsConImagen(promp) {
             <Card.Body>
                 <div class="imagenes">
                     <Card.Img variant="top" src={promp.imagen} />
-                    <Card.Img variant="top" src={promp.imagen2} />
-                    <Card.Img variant="top" src={promp.imagen3} />
                 </div>
                 <Card.Text>
                     {promp.figure}
