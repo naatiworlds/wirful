@@ -10,7 +10,7 @@ function CardsConImagen(promp) {
             <Card.Title><h2 class="tituloCard"><a href={promp.redireccion}>{promp.titulo}</a></h2></Card.Title>
             <Card.Body>
                 <div class="imagenes">
-                    <Card.Img variant="top" src={promp.imagen} />
+                <a href={promp.redireccion}><Card.Img variant="top" src={promp.imagen} /></a>
                 </div>
                 <Card.Text>
                     {promp.figure}
